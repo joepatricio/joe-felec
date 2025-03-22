@@ -7,9 +7,10 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route index path="/" element={<Views.Homepage />} />
-      <Route path="/employee" element={<Views.EmployeeList />} />
+      <Route index path="/button" element={<Views.ClickCounter />} />
+      {/* <Route path="/employee" element={<Views.EmployeeList />} />
       <Route path="/employee/add" element={<Views.EmployeeForm />} />
-      <Route path="/context" element={<Examples.ContextExample />} />
+      <Route path="/context" element={<Examples.ContextExample />} /> */}
     </Routes>
   );
 };
