@@ -1,4 +1,5 @@
 Dependencies: react, axios, json-server
+
 React basecode for Alliance Jumpstart program
 
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
